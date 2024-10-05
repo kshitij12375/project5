@@ -1,0 +1,265 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+#header{
+    height:700px;
+   
+    background-image:linear-gradient(rgba(0,0,0,0.68),rgba(0,0,0,0.68)), url(https://i.redd.it/zjgs096khv591.jpg);
+
+    background-size: cover;
+
+
+}
+img{
+    position: absolute;
+    margin-bottom: 180px;
+    height: 150px;
+    width: 150px;
+    margin-left: 130px;
+}
+#footer{
+    display: flex;
+    height:300px;
+    
+    justify-content: right;
+}
+
+    
+    
+    
+   
+
+#lang{
+    background-color: rgb(0,0,0);
+    height:30px;
+    width:20px;
+    color: white;
+    position: relative;
+    right: 300px;
+    margin-right: 80px;
+    margin-top: 60px;
+    border-radius: 30px;
+    border-style: 4px solid rgb(255, 255, 255);
+    
+
+}
+#sign{
+    background-color: rgb(255, 0, 0);
+    display: inline;
+    height: 20px;
+    width:10px;
+    
+    color: white;
+    position: relative;
+    
+    right: 250px;
+    border-radius: 20%;
+    border-style: 2px solid red;
+    
+    margin-left: -10px;
+    margin-top: 58px;
+}
+#signi {
+    background-color: rgb(255, 0, 0);
+    font-weight: 750;
+    font-size: medium;
+    color: white;
+    height: 30px;
+    width:90px
+    
+    
+
+    
+    
+    
+
+}
+select{
+    background: transparent;
+    font-weight: 480;
+    font-size: larger;
+    text-align: center;
+    color: white;
+    height: 29x;
+    width:120px
+    
+    
+}
+#content{
+    height: 900px;
+ 
+
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-stretch: narrower;
+    font-weight: 900;
+   
+    text-align: center;
+    position: relative;
+    
+
+    bottom: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+    font-size: 50px;
+    font-style: bold;
+}
+h4{
+    position: relative;
+    bottom: 100px;
+    
+ 
+    font-size: 18px;
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 80px;
+}
+h5{
+    color: rgb(255, 255, 255);
+    text-align: center
+    
+    ;
+    font-weight: 600;
+    font-size: 16px;
+    position: relative;
+    bottom: 137px;
+}
+#login{
+    display: flex;
+    justify-content: center;
+
+
+}
+input{
+    position: relative
+    ;
+    border-style: 40px solid black;
+    border-radius: 5%;
+    color: gray;
+    background-color: rgb(0, 0, 0,0.7);
+    bottom:720px;
+    width: 380px;
+    height:48px
+    ;
+    margin-right: 60px;
+    
+}
+#get{
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 90;
+    font: bolder;
+    border-style: 6px solid rgb(245, 7, 7);
+    border-radius: 6%;
+    position: relative
+    ;
+    bottom: 723px;
+    right: 50px;
+    height:57px
+    ;
+    width: 240px;
+   
+}
+#second{
+    border-style: solid none none none 100px purple;
+    background-color: black;
+    height: 2000px;
+
+    
+}
+#trend{
+    color: white;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font: bolder;
+}
+#selec{
+    margin-left: 100px;
+    background-color: rgba(67, 65, 65, 0.9);
+    width: 90px;
+    height: 35px;
+
+   
+    margin-top: 30px;
+    margin-right: 20px;
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 40px;
+    color:white
+    
+    
+    
+    
+}
+#sel{
+    position: relative
+    
+    
+    ;
+    background-color: rgba(68, 67, 67, 0.9);
+    height: 35px;
+    bottom: 20px;
+    
+}
+#container{
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+  flex-direction: row;
+  
+}
+#box1{
+    background-image: url(https://m.media-amazon.com/images/M/MV5BN2RjNzIxYjYtNzU1Zi00NGRhLWE2OTktMTA2NGUzNjQyYjFlXkEyXkFqcGc@._V1_.jpg);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-color: white;
+}
+#box2{
+    background-image: url(https://resizing.flixster.com/P3ITKQPm33gw4K73O9DYCOfyZ4E=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzQ1Zjg4NDFhLWMxY2EtNDU3NC04OTNmLTQ4MTJiMzc3Y2EwZC5qcGc=);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-color: white;
+}
+#box3{
+    background-image: url(https://dnm.nflximg.net/api/v6/2DuQlx0fM4wd1nzqm5BFBi6ILa8/AAAAQYApbyEA8dTOxD7XXJZ7gnnghPd3GL5xGL_wPxXWm43oWwL7XYR2dstAzkR4Xgqzkig_h8BOT920-lCqEmT-AFsKzBjhdyCsiBh2I5NcWcs8WPsRl7vxU6IsYm1blDEQItlVy8-z6q9f1Cy_i32tsl-y.jpg?r=24c);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-color: white;
+}
+#box4{
+    background-image: url(https://occ-0-8407-2219.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVuKN6f-4-ByM9rS6HLDWpQTwHdlamYlU39JFtJ68en_n00Rucuwg2SlSa7wq8UgCZdRoasJtOJldjYzQs6B7UEe4nUhCvNSn6x-0aX2UTzq4hJq2ws7QjFfodg0ikxh_RFF.webp?r=35c);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-color: white;
+}
+#box5{
+    background-image: url(https://source.boomplaymusic.com/buzzgroup1/M00/29/8E/rBEeLGG6AD6AJ782AAK7_nvf__s978.jpg);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-size: 100%;
+    
+   
+    background-color: white;
+
+}
+
+
+#box6{
+    background-image: url(https://resizing.flixster.com/0iQm4yhjVd8HrXQ-PIWZo4RU4xE=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2YxZDA0NzI4LTMyN2YtNGU3My1iOTI0LTA1M2UyOWU2MTQyMC5qcGc=);
+    background-size: cover;
+    height: 215px;
+    width: 170px;
+    background-color: white;
+}
